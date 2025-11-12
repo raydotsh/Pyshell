@@ -2,6 +2,7 @@ import os
 import sys
 import shutil
 import subprocess
+from commands.cat import cat
 
 # Colored output
 BLUE = "\033[94m"
@@ -81,6 +82,8 @@ def run_shell():
             remove_item(args[0])
         elif command == "nvim" and args:
             run_nvim(args[0])
+        elif command == "cat" and args:
+             cat(args)
         else:
             print(f"{DIM}Unknown command:{RESET} {command}")
 
