@@ -4,7 +4,7 @@ A mini shell written in Python that lets you navigate directories, create or rem
 
 ## Features
 - Custom shell prompt that shows your current directory
-- Commands: `ls`, `cd`, `mkdir`, `rm`, `cat`, and more
+- Commands: `ls`, `cd`, `mkdir`, `rm`, `cat`, `pwd` and more
 - File size display for easy reference
 - Color-coded output for directories and files
 - Minimal, fun, and terminal-friendly design
