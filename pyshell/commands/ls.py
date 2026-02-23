@@ -13,3 +13,9 @@ def ls(show_hidden=False):
             print(f"FILE {size:>8} bytes  {mtime}  {e}")
         elif os.path.isdir(e):
             print(f"DIR  {'-'*8}        {'-'*19}  {e}")
+
+def run(args):
+    show_hidden = "-a" in args
+    ls(show_hidden)
+
+
