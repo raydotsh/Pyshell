@@ -18,3 +18,9 @@ if __name__ == "__main__":
         print("Usage: python cat.py <file1> <file2> ...")
     else:
         cat(filepaths)
+
+def run(args):
+    if not args:
+        print("cat: missing file operand")
+    else:
+        cat(args)

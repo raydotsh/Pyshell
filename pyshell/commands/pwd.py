@@ -24,3 +24,6 @@ def pwd(args: list[str]) -> None:
 
 if __name__ == "__main__":
     pwd(sys.argv[1:])
+
+def run(args):
+    pwd(args)
